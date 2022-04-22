@@ -1,0 +1,42 @@
+
+      .container {
+        display: flex;
+        margin-bottom: 10px;
+        gap: 10px;
+      }
+
+      .text {
+        flex: 1;
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 5px;
+        display: inline-block;
+      }
+
+      .mark {
+        background-color: rgb(61, 103, 255);
+        color: white;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 25px;
+        font-size: 16;
+        padding-top: 8px;
+      }
+
+      .box {
+        border: 1px gray solid;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+      }
+
+      p {
+        flex: 1;
+        font-size: 20px;
+        font-weight: 500;
+        display: inline-block;
+        margin: 0;
+        padding-top: 5px;
+      }
