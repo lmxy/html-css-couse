@@ -1,0 +1,59 @@
+p {
+  margin: 0;
+  font-family: Arial;
+  margin-left: 50px;
+}
+.font {
+  font-family: Tahoma;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.font-5b {
+  font-family: Arial;
+  font-size: 25;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+.font-5b-sub {
+  font-style: italic;
+  font-size: 18;
+  color: red;
+  margin-bottom: 50px;
+  }
+
+.font-c1 {
+font-family: Verdana;
+font-weight: bold;
+font-size: 22;
+margin-bottom: 5px;
+}
+.font-c2 {
+font-family: Verdana;
+font-size: 20;
+color: grey;
+margin-bottom: 30px;
+}
+.font-c3 {
+font-family: Verdana;
+font-size: 20px;
+width: 370px;
+margin-bottom: 30px;
+
+}
+
+.font-c4 {
+font-family: Verdana;
+background-color: rgb(22, 179, 108);
+color: white;
+font-size: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+width: 120px;
+border-radius: 5px;
+text-align: center;
+}

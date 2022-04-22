@@ -1,0 +1,30 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+.email {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.search {
+  font-size: 34px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.description {
+  font-size: 17px;
+  color: grey;
+  margin-bottom: 30px;
+}
+.agree_join {
+  color: whitesmoke;
+  background-color: #3762d0;
+  width: 420px;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 31px;
+}
