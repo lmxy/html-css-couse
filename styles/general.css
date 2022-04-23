@@ -6,9 +6,11 @@ p {
 
 body {
   margin: 0;
-  padding-left: 80px;
+  padding-left: 96px;
   padding-bottom: 1000px;
   padding-top: 80px;
+  padding-right: 24px;
+  background-color: rgb(243, 243, 243);
 }
 
 .video-time {
@@ -25,5 +27,5 @@ body {
   border-radius: 2px;
   font-family: Roboto, Arial;
   font-weight: 500;
-}
+} 
 
