@@ -1,27 +1,119 @@
 .header {
-  height: 50px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(211, 211, 211);
+  z-index: 100;
+
 }
 
- .search-bar {
-   font-size:  20px;
+ .right-section {
+   width: 180px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 24px;
+   flex-shrink: 0;
+   
  }
 
  .left-section {
-   background-color: lightblue;
-   width: 150px;
+   display: flex;
+   padding-left: 25px;
+   align-items: center;
+
+ }
+ .hamburger-menu {
+   height: 25px;
+   margin-right: 30px;
+ }
+
+ .youtube-logo {
+   height: 21px;
+  
  }
 
  .middle-section {
-   background-color: lightcoral;
-   margin-left: 70px;
-   margin-right: 35px;
-   flex: 1;
-   max-width: 500px;
- }
+  display: flex;
+  margin-left: 54px;
+  margin-right: 40px;
+  flex: 1;
+  max-width: 460px;
+  align-items: center;
+}
 
- .right-section {
-   background-color: lightblue;
-   width: 250px;
- }
+.search-bar {
+  border-radius: 2px;
+  height: 40px;
+  flex: 1;
+  width: 0;
+  min-width: 0;
+  padding-left: 12px;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0px 1px 2px #eeeeee;
+}
+
+.search-button {
+  height: 44px;
+  width: 62px;
+  padding-bottom: 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(181, 181, 181, 0.675);
+  margin-left: -1px;
+}
+
+.search-icon {
+  padding-top: 6px;
+  height: 24px;
+  
+}
+
+.voice-search-button {
+  height: 44px;
+  width: 62px;
+  border: none;
+  background-color: white;
+}
+
+.voice-icon {
+  padding-top: 6px;
+  height: 24px;
+}
+
+.icons {
+  height: 24px;
+}
+
+.channel_icon{
+  height: 36px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -7px;
+  background-color: rgb(200, 4, 4);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 15px;
+  
+}  
