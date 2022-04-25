@@ -72,21 +72,59 @@
   margin-left: -1px;
 }
 
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.apps-icon-container,
+.notifications-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.apps-icon-container .tooltip,
+.notifications-container .tooltip {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.apps-icon-container:hover .tooltip,
+.notifications-container:hover .tooltip {
+  opacity: 1;
+}
+
 .search-icon {
-  padding-top: 6px;
   height: 24px;
   
 }
 
 .voice-search-button {
-  height: 44px;
-  width: 62px;
+  height: 40px;
+  width: 40px;
   border: none;
-  background-color: white;
+  background-color: rgb(241, 241, 241);
+  border-radius: 28px;
+  margin-left: 8px;
 }
 
 .voice-icon {
-  padding-top: 6px;
   height: 24px;
 }
 
@@ -96,6 +134,7 @@
 
 .channel_icon{
   height: 36px;
+  cursor: pointer;
 }
 
 .notifications-icon-container {
